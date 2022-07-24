@@ -1,0 +1,48 @@
+.container-display{
+    background:url(../../images/background.png);
+}
+.activity-container{
+    height: 100vh;
+    padding: 20px 50px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // align-items: ;
+    width: 100%;
+    .content-left{
+        .content-image{
+            // width: 100%;
+            background-size: cover;
+        }
+        width: 50%;
+        margin-right: 80px;
+    }
+    .content-right{
+        width: calc(50%-20px);
+        .activity-title{
+            font-size: 25px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .activity-desc{
+            font-size: 15px;
+        }
+        .btn{
+            display: inline-block;
+            margin-top: 80px;
+            padding:.7rem 3rem;
+            border-radius: 5rem;
+            background:var(--red);
+            color:#fff;
+            font-size: 22px;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+            width: 150px;
+            cursor: pointer;
+          }
+          
+        .btn:hover{
+        background:#333;
+        }
+    }
+}
